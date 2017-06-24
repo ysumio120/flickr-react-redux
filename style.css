@@ -1,0 +1,38 @@
+body {
+  background-color: #eee;
+}
+
+.search {
+  max-width: 500px;
+  margin-left: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.glyphicon-search {
+  padding-right: 8px;
+}
+
+ul {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  align-items: center;
+  -webkit-align-items:center;
+  -moz-align-items: center;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  margin-right: 25px;
+}
